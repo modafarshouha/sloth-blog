@@ -29,7 +29,7 @@ GitHub Pages offers two common URL patterns:
 | Hosting style | Example URL | `PUBLIC_SITE_URL` | Base path config |
 |---------------|-------------|-------------------|------------------|
 | **User or org site** (repo named `modafarshouha.github.io`) | `https://modafarshouha.github.io/` | `https://modafarshouha.github.io` | Leave `PUBLIC_PAGES_SUBPATH` empty |
-| **Project site** (repo named `sloth_blog`) | `https://modafarshouha.github.io/sloth_blog/` | `https://modafarshouha.github.io` | `PUBLIC_PAGES_SUBPATH=sloth_blog` |
+| **Project site** (repo named `sloth-blog`) | `https://modafarshouha.github.io/sloth-blog/` | `https://modafarshouha.github.io` | `PUBLIC_PAGES_SUBPATH=sloth-blog` |
 
 Use **`PUBLIC_PAGES_SUBPATH`** with the **repository name only** (no slashes). The build turns it into `/blog/` automatically.
 
