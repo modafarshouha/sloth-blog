@@ -2,6 +2,7 @@
 title: "AI hallucinates, but don't blame the temperature"
 description: 'Temperature tunes randomness, not truth — and turning it down does not cure hallucination.'
 pubDate: '21 Jul 2026'
+heroImage: ../../assets/blog/ai_hallucination_temperature.png
 ---
 
 There is a popular fix passed around online: if a chatbot is "making things up", just lower its "temperature". The name helps the story. High temperature sounds like a fever, and a fever brings hallucinated dreams. Cool the model down and it comes back to its senses. It is a neat metaphor... but is it right?

@@ -9,11 +9,12 @@ import EmojiBackground from '../components/EmojiBackground.astro';
 import PostReadStats from '../components/PostReadStats.astro';
 import CitationBlock from '../components/CitationBlock.astro';
 import { AUTHOR_NAME, AUTHOR_URL } from '../consts';
+import { withBase } from '../utils/path';
 
 type Props = CollectionEntry<'blog'>['data'] & { postSlug?: string };
 
 const { title, description, pubDate, updatedDate, heroImage, postSlug } = Astro.props;
-const postUrl = postSlug ? new URL(`blog/${postSlug}/`, Astro.site ?? 'https://modafarshouha.github.io/sloth-blog/').href : '';
+const postUrl = postSlug ? new URL(withBase(`blog/${postSlug}/`), Astro.site ?? 'https://modafarshouha.github.io/').href : '';
 ---
 
 <html lang="en">
@@ -33,11 +34,17 @@ const postUrl = postSlug ? new URL(`blog/${postSlug}/`, Astro.site ?? 'https://m
 				margin: 0;
 				padding-top: 0;
 			}
+			.hero-image {
+				width: 40rem;
+				max-width: calc(100% - 2rem);
+				margin: 0 auto;
+			}
 			.hero-image img {
 				display: block;
 				width: 100%;
-				max-height: 22rem;
-				object-fit: cover;
+				height: auto;
+				margin-top: 1.5rem;
+				border-radius: 6px;
 			}
 			.prose {
 				width: 40rem;
@@ -79,7 +86,7 @@ const postUrl = postSlug ? new URL(`blog/${postSlug}/`, Astro.site ?? 'https://m
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+					{heroImage && <Image width={1280} src={heroImage} alt="" />}
 				</div>
 				<div class="prose">
 					<div class="title">

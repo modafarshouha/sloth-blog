@@ -2,6 +2,7 @@
 title: 'AI thinks fast, but can it think slow?'
 description: 'LLMs, System 1 vs 2, and why extra reasoning steps are still mimicry.'
 pubDate: '18 May 2026'
+heroImage: ../../assets/blog/ai_thinking_fast.png
 ---
 
 While writing this post, my brain is mostly using System 2. I am very conscious, focused, and careful of what I am phrasing. This is natural since this is not an intuitive activity; thus, my brain cannot use the automatic mode of System 1. But what if I asked an AI (i.e., an LLM) to write this post; which system does it use?

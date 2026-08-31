@@ -2,6 +2,7 @@
 title: 'Why people are afraid of AI more than machines?'
 description: 'Exploring why AI triggers deeper fears than any physical machine ever did.'
 pubDate: '23 Mar 2026'
+heroImage: ../../assets/blog/people_afraid_of_ai.png
 ---
 
 When cars first appeared, people were terrified of these "devil wagons" that moved without horses. Over time, that fear was tamed. In contrast, the fear of Artificial Intelligence (AI) is not only more widespread, but it is increasing. While both technologies have influenced our lives in similar ways — transforming the economy, multiplying our capabilities, and offloading tasks — AI triggers a much deeper sense of concern.

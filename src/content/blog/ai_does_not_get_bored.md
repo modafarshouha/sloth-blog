@@ -2,6 +2,7 @@
 title: 'AI does not get bored'
 description: 'Highlighting the gap between machine predictability and the human drive for meaning.'
 pubDate: '03 Apr 2026'
+heroImage: ../../assets/blog/ai_does_not_get_bored.png
 ---
 
 "Good" is generally aligned with "predictable". To behave well is to act exactly as expected. A good answer to a math question is the correct one. There is a standard we try to meet or an objective goal to achieve. Similarly, an AI model is a predicting machine. A good prediction is simply an accurate one; the one that perfectly aligns with its training.

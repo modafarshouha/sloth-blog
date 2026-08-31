@@ -2,6 +2,7 @@
 title: 'What is it like to be an AI?'
 description: 'Current AI is not conscious, but even if it is, we might not be able to know.'
 pubDate: '07 June 2026'
+heroImage: ../../assets/blog/artificial_consciousness.png
 ---
 
 If you have used modern AI chatbots, you have probably felt that they "get" you; that they "know" what you want. This is natural, since current models excel at emotional language; many hedge, pause, and express uncertainty in ways that feel human, and they appear to be consistent through conversations. Some even claim that these are not just simulated attributes, but that AI actually is conscious, has sentience, and is alive...
