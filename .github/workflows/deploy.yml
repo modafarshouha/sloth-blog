@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main, master]
+  schedule:
+    # Mondays 11:00 UTC: publishes posts whose pubDate has arrived (future-dated posts are hidden at build time)
+    - cron: '0 11 * * 1'
   workflow_dispatch:
 
 permissions:
