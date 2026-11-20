@@ -4,8 +4,9 @@ on:
   push:
     branches: [main, master]
   schedule:
-    # Mondays 11:00 UTC: publishes posts whose pubDate has arrived (future-dated posts are hidden at build time)
-    - cron: '0 11 * * 1'
+    # Mondays 10:00 UTC = 11:00 CET (winter): publishes posts whose pubDate has arrived.
+    # Future-dated posts are hidden at build time. Cron is UTC-only, so in summer (CEST) this runs at 12:00 local.
+    - cron: '0 10 * * 1'
   workflow_dispatch:
 
 permissions:
